@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "353893e0-7fa0-4d61-8f02-9c3f3cf79607",
+		"name": "AplicationSoapClient",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24393158",
+		"_collection_link": "https://lunar-crater-546608.postman.co/workspace/Team-Workspace~09b7adc2-4999-4880-8509-cbaed4e92cc0/collection/24393158-353893e0-7fa0-4d61-8f02-9c3f3cf79607?action=share&source=collection_link&creator=24393158"
+	},
+	"item": [
+		{
+			"name": "Sumar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/add?numberA=3&numberB=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"add"
+					],
+					"query": [
+						{
+							"key": "numberA",
+							"value": "3"
+						},
+						{
+							"key": "numberB",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Restar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/divide?numberA=10&numberB=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"divide"
+					],
+					"query": [
+						{
+							"key": "numberA",
+							"value": "10"
+						},
+						{
+							"key": "numberB",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiplicar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/multiply?numberA=10&numberB=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"multiply"
+					],
+					"query": [
+						{
+							"key": "numberA",
+							"value": "10"
+						},
+						{
+							"key": "numberB",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dividir",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/subtract?numberA=10&numberB=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"subtract"
+					],
+					"query": [
+						{
+							"key": "numberA",
+							"value": "10"
+						},
+						{
+							"key": "numberB",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
