@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  springboot_graphql:
+    container_name: springbootsoap
+    image: springbootsoap
+    build: .
+    ports:
+      - 8080:8080
+

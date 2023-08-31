@@ -37,7 +37,7 @@
 			"response": []
 		},
 		{
-			"name": "Restar",
+			"name": "Dividir",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -95,7 +95,7 @@
 			"response": []
 		},
 		{
-			"name": "Dividir",
+			"name": "Restar",
 			"request": {
 				"method": "POST",
 				"header": [],

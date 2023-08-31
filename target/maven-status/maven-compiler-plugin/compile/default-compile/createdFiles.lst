@@ -1,10 +1,13 @@
 com\soap\wsdl\Add.class
 com\soap\wsdl\AddResponse.class
+com\soap\controller\SoapController.class
 com\soap\wsdl\Subtract.class
+com\soap\client\SoapClient.class
 com\soap\wsdl\MultiplyResponse.class
 com\soap\wsdl\SubtractResponse.class
 com\soap\wsdl\Multiply.class
 com\soap\wsdl\DivideResponse.class
+com\soap\config\SoapConfig.class
 com\soap\wsdl\package-info.class
 com\soap\SpringBootSoapApplication.class
 com\soap\wsdl\Divide.class
