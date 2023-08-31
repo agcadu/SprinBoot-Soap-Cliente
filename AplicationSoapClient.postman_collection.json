@@ -13,13 +13,14 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/add?numberA=3&numberB=3",
+					"raw": "http://localhost:8080/api/add?numberA=3&numberB=3",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
+						"api",
 						"add"
 					],
 					"query": [
@@ -42,13 +43,14 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/divide?numberA=10&numberB=5",
+					"raw": "http://localhost:8080/api/divide?numberA=10&numberB=5",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
+						"api",
 						"divide"
 					],
 					"query": [
@@ -71,13 +73,14 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/multiply?numberA=10&numberB=5",
+					"raw": "http://localhost:8080/api/multiply?numberA=10&numberB=5",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
+						"api",
 						"multiply"
 					],
 					"query": [
@@ -100,13 +103,14 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/subtract?numberA=10&numberB=5",
+					"raw": "http://localhost:8080/api/subtract?numberA=10&numberB=5",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
+						"api",
 						"subtract"
 					],
 					"query": [
